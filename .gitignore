@@ -1,0 +1,23 @@
+# secrets
+.env
+*.token
+
+# environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# downloaded exchange data and results (private team data: never commit)
+data/*
+!data/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# the team's strategy configuration (private: keep local)
+config/desk*.toml
+.DS_Store

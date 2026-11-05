@@ -1,0 +1,7 @@
+symbol,official_round_lot,eligible_seconds,qualifying_seconds,presence_pct,sessions_below_85pct,size_failure_seconds,size_failure_pct_eligible,dominant_failure_reason,historical_lot_used,sessions_assessed,sessions_below_85pct_dates,presence_pct_if_size_ok,historical_lot_values,config_size_lots,config_target_shares,median_shown_shares,lot_change_vs_28oct,lost_missing_side_s,lost_stale_s,lost_no_band_s,lost_size_config_lot_s,lost_size_depleted_s,lost_spread_s,note
+DEMOA,100,9900,0,0.0,3,9605,97.02,size: config lot 40 < official 100,40,3,2026-11-02 2026-11-03 2026-11-04,97.02,40,2,80,80,same,208,87,0,8649,956,0,desk.toml lot 40 is below the official 100: add DEMOA = 100 to [quoting.size_overrides]
+DEMOB,100,9900,2000,20.2,3,4614,46.61,size: shown below lot (fills/caps),100,3,2026-11-02 2026-11-03 2026-11-04,66.81,100,1,100,50,same,3088,198,0,0,4614,0,
+DEMOE,100,9540,8169,85.63,1,934,9.79,size: shown below lot (fills/caps),100,3,2026-11-02,95.42,100,2,200,200,same,309,128,0,0,934,0,
+DEMOD,40,9900,8711,87.99,0,918,9.27,size: shown below lot (fills/caps),40,3,,97.26,40,2,80,80,same,197,74,0,0,918,0,
+DEMOC,100,9900,7198,72.71,3,676,6.83,missing side,100,3,2026-11-02 2026-11-03 2026-11-04,79.54,100,2,200,200,same,1354,672,0,0,676,0,
+DEMOF,10,9900,9398,94.93,0,396,4.0,size: shown below lot (fills/caps),10,3,,98.93,10,2,20,20,same,68,38,0,0,396,0,

@@ -1,0 +1,4 @@
+# Core analysis needs only the Python 3.11+ standard library.
+# Downloading data needs the QTE SDK:
+qte-sdk @ git+https://github.com/josh-g-s/qte-sdk
+pytest>=8
